@@ -1,6 +1,3 @@
-// 20201014112810
-// https://raw.githubusercontent.com/prodeveloper/social-share/52fb022bc10b96bb9f61b8d6b2429084a1cf2328/composer.json
-
 {
   "name": "Yousefyahya/share",
   "description": "Share links with Laravel 5/6/7",
