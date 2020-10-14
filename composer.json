@@ -1,11 +1,16 @@
+// 20201014112810
+// https://raw.githubusercontent.com/prodeveloper/social-share/52fb022bc10b96bb9f61b8d6b2429084a1cf2328/composer.json
+
 {
-  "name": "chencha/share",
-  "description": "Share links with Laravel 5/6",
+  "name": "Yousefyahya/share",
+  "description": "Share links with Laravel 5/6/7",
   "keywords": [
     "share",
     "laravel",
     "laravel5",
-    "laravel6"
+    "laravel6",
+    "laravel7",
+    "laravel8"
   ],
   "version": "5.4.0",
   "license": "MIT",
@@ -15,8 +20,8 @@
       "email": "jonathan.thuau@gmail.com"
     },
     {
-      "name": "chencha",
-      "email": "jacob@chenchatech.com"
+      "name": "Chencha",
+      "email": "jacob@Chencha.com"
     },
     {
       "name": "datashaman",
@@ -25,23 +30,23 @@
   ],
   "require": {
     "php": ">=5.4.0",
-    "illuminate/support": "5.*|^6|^7"
+    "illuminate/support": "5.*|^6|^7|^8"
   },
   "autoload": {
     "psr-0": {
-      "Chencha\\Share": "src/"
+      "Yousefyahya\\Share": "src/"
     },
     "classmap": [
-        "tests/TestCase.php"
+      "tests/TestCase.php"
     ]
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Chencha\\Share\\ShareServiceProvider"
+        "Yousefyahya\\Share\\ShareServiceProvider"
       ],
       "aliases": {
-        "Share": "Chencha\\Share\\ShareFacade"
+        "Share": "Yousefyahya\\Share\\ShareFacade"
       }
     }
   },

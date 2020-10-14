@@ -1,8 +1,8 @@
 # Share
 
-Share links with Laravel 5
+Share links with Laravel 5/6/7/8
 
-This is a fork to John's share for Laravel 4. 
+This is a fork to Chencha share for laravel 5 based on John's share for Laravel 4. 
  
 ## Services available
 
@@ -11,6 +11,7 @@ This is a fork to John's share for Laravel 4.
 - Email : email
 - Evernote : evernote
 - Facebook : facebook
+- Facebook Messenger : fbMessenger
 - Gmail : gmail
 - Google Plus : gplus
 - LinkedIn : linkedin
@@ -22,22 +23,23 @@ This is a fork to John's share for Laravel 4.
 - Twitter : twitter
 - Viadeo : viadeo
 - vk.com : vk
+- Whatsapp : whatsapp
 
 
 ## Installation
 
 Step 1 : Install Composer dependency
 
-    composer require chencha/share
+    composer require Yousefyahya/share
 
 Step 2 : Register the Service Provider
 
-Add *Chencha\Share\ShareServiceProvider* to providers array in *config/app.php*
+Add *Yousefyahya\Share\ShareServiceProvider* to providers array in *config/app.php*
 
 Step 3 : Register Alias
 
 
-Add *Share* => *Chencha\Share\ShareFacade* to aliases array in *config/app.php*
+Add *Share* => *Yousefyahya\Share\ShareFacade* to aliases array in *config/app.php*
 
 
 ## Usage
@@ -83,7 +85,7 @@ Returns an array of results for all defined services.
 
 Publish the package config:
 
-    php artisan vendor:publish --provider='Chencha\Share\ShareServiceProvider'
+    php artisan vendor:publish --provider='Yousefyahya\Share\ShareServiceProvider'
 
 Add a new service in config/social-share.php:
 

@@ -1,4 +1,4 @@
-<?php namespace Chencha\Share;
+<?php namespace Yousefyahya\Share;
 
 use Illuminate\Support\ServiceProvider;
 
